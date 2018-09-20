@@ -6,6 +6,8 @@ import TableList from '@/pages/TableList.vue'
 import Typography from '@/pages/Typography.vue'
 import Icons from '@/pages/Icons.vue'
 import Notifications from '@/pages/Notifications.vue'
+import Events from '@/pages/Events.vue'
+import Users from '@/pages/Users.vue'
 
 const routes = [
   {
@@ -42,6 +44,16 @@ const routes = [
         path: 'notifications',
         name: 'Notifications',
         component: Notifications
+      },
+      {
+        path: 'events',
+        name: 'Events',
+        component: Events
+      },
+      {
+        path: 'users',
+        name: 'Users',
+        component: Users
       }
     ]
   }

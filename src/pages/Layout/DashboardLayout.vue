@@ -12,9 +12,13 @@
         <md-icon>person</md-icon>
         <p>User Profile</p>
       </sidebar-link>
-      <sidebar-link to="/table">
-        <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+      <sidebar-link to="/events">
+        <md-icon>event</md-icon>
+        <p>Events</p>
+      </sidebar-link>
+      <sidebar-link to="/users">
+        <md-icon>group</md-icon>
+        <p>Users</p>
       </sidebar-link>
     </side-bar>
 
